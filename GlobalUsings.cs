@@ -1,0 +1,14 @@
+﻿global using BookingHotelsAPI.Data;
+global using BookingHotelsAPI.Models;
+global using BookingHotelsAPI.Data.Repositories;
+global using BookingHotelsAPI.Data.UnitOfWork;
+global using BookingHotelsAPI.Interfaces;
+global using BookingHotelsAPI.Services;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.OpenApi.Models;
+global using System.Text;
+global using BookingHotelsAPI;
+global using BookingHotelsAPI.Extensions;
