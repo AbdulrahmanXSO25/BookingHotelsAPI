@@ -18,7 +18,7 @@
             services.AddDbContext<AppDbContext>(opt =>
             {
                 var connectionString = config.GetConnectionString("DefaultConnection");
-                opt.UseNpgsql(connectionString);
+                opt.UseSqlServer(connectionString);
             });
 
 
