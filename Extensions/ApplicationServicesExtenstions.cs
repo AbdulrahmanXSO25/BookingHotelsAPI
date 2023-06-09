@@ -33,7 +33,7 @@
                 opt.AddPolicy("CorsPolicy", policy =>
                 {
                     policy.AllowAnyHeader().AllowAnyMethod()
-                    .WithOrigins("https://localhost:4200");
+                    .WithOrigins("https://booking-hotels-angular.vercel.app");
                 });
             });
 
